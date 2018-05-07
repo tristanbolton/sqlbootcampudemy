@@ -16,5 +16,5 @@ services:
     ports:
       - '80:80'
     environment:
-      PGADMIN_DEFAULT_EMAIL: email address
+      PGADMIN_DEFAULT_EMAIL: email@address.com
       PGADMIN_DEFAULT_PASSWORD: password
