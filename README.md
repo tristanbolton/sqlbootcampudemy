@@ -6,13 +6,13 @@ https://www.udemy.com/the-complete-sql-bootcamp/
 ## Personalize the yml file
 In the yml file change these two items:
 
-    1. Change the postgres password to whatever you want.
-        ```POSTGRES_PASSWORD: db_password```
+* 1. Change the postgres password to whatever you want.
+```POSTGRES_PASSWORD: db_password```
 
-    2. Change the PGadmin Email (UN) and password to whatever you want. This is used to login to PGdmin
+* 2. Change the PGadmin Email (UN) and password to whatever you want. This is used to login to PGdmin
 
-        ```PGADMIN_DEFAULT_EMAIL: email@address.com```
-        ```PGADMIN_DEFAULT_PASSWORD: password```
+```PGADMIN_DEFAULT_EMAIL: email@address.com```
+```PGADMIN_DEFAULT_PASSWORD: password```
 
 ## Run Docker
     1. Download and install Docker and git (Ubuntu instructions below)
