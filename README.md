@@ -31,7 +31,8 @@ sudo apt-get install git
 ```
 
 * Download yml file and edit it
-```git clone https://github.com/tristanbolton/sqlbootcampudemy.git
+```
+git clone https://github.com/tristanbolton/sqlbootcampudemy.git
 git init
 cd sqlbootcampudemy/
 nano docker-compose.yml
