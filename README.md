@@ -20,7 +20,8 @@ PGADMIN_DEFAULT_PASSWORD: password
 ## Run Docker
 * Download and install Docker and git (Ubuntu instructions below)
 
-```sudo apt-get install curl
+```
+sudo apt-get install curl
 curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh
 sudo usermod -aG docker $(whoami)
@@ -42,7 +43,14 @@ nano docker-compose.yml
 
 ```sudo docker-compose up -d```
 
-Load PGadmin by going to http://IP_OF_UBUNTU
+* Load PGadmin by going to **http://IP_OF_UBUNTU**
+* Login using your **email** and **password** you set in docker-compose.yml
+* Click **Add New Server**
+* General -> Name: **DB**
+* Connection -> Hostname/address: **db**
+* Connection -> Username: **postgres**
+* Connection -> Password: Password you set in docker-compose.yml
+* **SAVE**
         
 
 ## Issues
